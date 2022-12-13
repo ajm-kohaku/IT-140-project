@@ -1,0 +1,91 @@
+{
+    "genbuShrine": {
+      "token": "Turtle",
+      "item": "",
+      "itemDescription": "You remove the Turtle token from the inset at the base of the statue. The statue's light dims. \n Note: All statues must glow to win the game.", 
+      "description": "A grand statue of a turtle Genbu, guardian god of the north stands before you.",
+      "tokenDescription": "You take out the Turtle token and place it in an inset at the base of the statue. The statue glows with spiritual radiance.",
+      "wrongTokenDescription": "You place the token in the inset at the base of the statue. The statue does not react.",
+      "directions": {
+        "east": "minamotoResidence",
+        "west": "fujiwaraResidence"
+      }
+    },
+    "minamotoResidence": {
+      "item": "Sword",
+      "itemDescription": "Minamoto no Hiromasa hands you the legendary sword of Susanoo, Totsuka-no-Tsurugi. You accept it reverently. He asks you to use this sword as the focus of the ritual",
+      "description": "A representative greets you at the entrance and motions for you enter and meet the lord of the residence, Minamoto no Hiromasa.",
+      "directions": {
+        "west": "genbuShrine",
+        "south": "seiryuuShrine"
+      }
+    },
+    "seiryuuShrine": {
+      "token": "Dragon",
+      "item": "",
+      "itemDescription": "You remove the Dragon token from the inset at the base of the statue. The statue's light dims. \n Note: All statues must glow to win the game.", 
+      "description": "A grand statue of the great dragon Seiryuu, guardian god of the east stands before you.",
+      "tokenDescription": "You take out the Dragon token and place it in an inset at the base of the statue. The statue glows with spiritual radiance.",
+      "wrongTokenDescription": "You place the token in the inset at the base of the statue. The statue does not react.",
+      "directions": {
+        "north": "minamotoResidence",
+        "south": "murasakiResidence"
+      }
+    },
+    "murasakiResidence": {
+      "start":true,
+      "startDescription": "Madam Murasaki finishes explaining your objectives and sends you on your way. She reminds you that the great serpent is likely in the palace in the center of the city.",
+      "description": "The great poet Murasaki Shikubu smiles and motions you to move onward",
+      "directions": {
+        "north": "seiryuuShrine",
+        "west": "suzakuShrine"
+      }
+    },
+    "suzakuShrine": {
+      "token": "Bird",
+      "item": "",
+      "itemDescription": "You remove the Bird token from the inset at the base of the statue. The statue's light dims. \n Note: All statues must glow to win the game.", 
+      "description": "A grand statue of the majestic bird, Suzaku, guardian god of the south stands before you.",
+      "tokenDescription": "You take out the Bird token and place it in an inset at the base of the statue. The statue glows with spiritual radiance.",
+      "wrongTokenDescription": "You place the token in the inset at the base of the statue. The statue does not react.",
+      "directions": {
+        "north": "grandPalace",
+        "east": "murasakiResidence",
+        "west": "abeResidence"
+      }
+    },
+    "abeResidence": {
+      "item": "Manuscript",
+      "itemDescription": "The great Abe no Seimei himself hands you his manuscript, the Senji Ryakketsu, on how to perform the ritual to reseal the great serpent",
+      "description": "The main residence of Abe no Seimei, the onmyoji master. A representative beckons you to enter and meet the lord of the residence.",
+      "directions": {
+        "east": "suzakuShrine",
+        "north": "byakkoShrine"
+      }
+    },
+    "byakkoShrine": {
+      "token": "Tiger",
+      "item": "",
+      "itemDescription": "You remove the Tiger token from the inset at the base of the statue. The statue's light dims. \n Note: All statues must glow to win the game.", 
+      "description": "A grand statue of the grand tiger, Byakko, guardian god of the west stands before you.",
+      "tokenDescription": "You take out the Tiger token and place it in an inset at the base of the statue. The statue glows with spiritual radiance.",
+      "wrongTokenDescription": "You place the token in the inset at the base of the statue. The statue does not react.",
+      "directions": {
+        "north": "fujiwaraResidence",
+        "south": "abeResidence"
+      }
+    },
+    "fujiwaraResidence": {
+      "item":"Talisman",
+      "itemDescription": "The servant at the gate hands you a Ofuda Talisman imbued with protections that will help you fight the serpent",
+      "description": "The main residence of the Fujiwara family in the city.",
+      "directions": {
+        "east": "genbuShrine",
+        "south": "byakkoShrine"
+      }
+    },
+    "grandPalace": {
+      "description": "You pass the palace gates and walk toward the grand hall when the a lone figure approaches you. As the figure approaches, their form begins to twist and warp. The great serpent is in front of you! Are you prepared?"
+    }
+  }
+  
